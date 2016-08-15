@@ -1,0 +1,9 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ImageButton
+        android:id="@+id/paint_button"
+        style="@style/ArtistButton"
+        android:src="@drawable/paint_icon"
+        android:visibility="gone"
+        />
+</merge>

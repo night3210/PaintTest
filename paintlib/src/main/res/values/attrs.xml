@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="PaintColorSelectView">
+        <attr name="paintColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="PaintToolSelectView">
+        <attr name="paintTool" format="enum">
+            <enum name="pen" value="0"/>
+            <enum name="brush" value="1"/>
+            <enum name="eraser" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
